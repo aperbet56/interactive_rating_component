@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Interactive rating component</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Interactive rating component</h1>
+    </header>
+    <main class="main__content">
+      <section class="container" id="rating__container">
+        <div class="star">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="info">
+          <h2 class="title">How did we do?</h2>
+          <p class="description">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="numbers">
+          <span class="number">1</span>
+          <span class="number">2</span>
+          <span class="number">3</span>
+          <span class="number">4</span>
+          <span class="number">5</span>
+        </div>
+        <p class="selected__number"></p>
+        <button class="btn">Submit</button>
+      </section>
+
+      <section class="container hidden" id="modal__container">
+        <div class="img">
+          <img src="images/illustration-thank-you.svg" alt="" />
+        </div>
+        <p class="selected__number__modal">Hi</p>
+        <div class="info__modal">
+          <h2 class="title">Thank You!</h2>
+          <p class="description">
+            We appreciate you taking the time to give a rating. If you ever need
+            more support, don’t hesitate to get in touch!
+          </p>
+        </div>
+        <button class="btn back">Back</button>
+      </section>
+    </main>
+
+    <footer>
+      <span>
+        Coded by
+        <a href="https://github.com/aperbet56" target="_blank">aperbet56</a
+        >.</span
+      >
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
+</html>
